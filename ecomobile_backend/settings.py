@@ -134,4 +134,4 @@ AWS_STORAGE_BUCKET_NAME = os.getenv('AWS_STORAGE_BUCKET_NAME')
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CSRF_TRUSTED_ORIGINS = ['https://ecomobile_api.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://ecomobile-api.up.railway.app']
