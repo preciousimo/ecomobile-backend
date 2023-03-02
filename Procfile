@@ -1,0 +1,1 @@
+web: gunicorn 'ecomobile_backend.wsgi'
