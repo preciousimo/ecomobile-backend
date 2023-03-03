@@ -22,7 +22,7 @@ class CustomUserRegisterSerializer(serializers.ModelSerializer):
         },
     )
 
-    password = serializers.CharField(
+    password2 = serializers.CharField(
         write_only=True,
         required=True,
         style={
@@ -51,5 +51,5 @@ class CustomUserRegisterSerializer(serializers.ModelSerializer):
         )
         user.set_password(validated_data["password"])
         user.save()
-        
+
         return user
