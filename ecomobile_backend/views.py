@@ -7,7 +7,7 @@ def endpoints(request):
     data = ['/auth/                   (for login)',
             '/auth/refresh/           (refresh token)',
             '/users/register/         (register user)',
-            '/products               (list of products)',
-            '/products/categories    (products categories)',]
+            '/products                (list of products)',
+            '/products/categories     (products categories)',]
 
     return Response(data)
